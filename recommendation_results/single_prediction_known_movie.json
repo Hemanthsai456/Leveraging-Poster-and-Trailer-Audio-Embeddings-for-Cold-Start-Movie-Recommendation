@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "user_id": 1,
+    "movie_id": 1,
+    "title": "Toy Story (1995)",
+    "genres": "Adventure|Animation|Children|Comedy|Fantasy",
+    "predicted_rating": 3.9266,
+    "model_type": "Multimodal Model",
+    "training_status": "Known (In Training)"
+}

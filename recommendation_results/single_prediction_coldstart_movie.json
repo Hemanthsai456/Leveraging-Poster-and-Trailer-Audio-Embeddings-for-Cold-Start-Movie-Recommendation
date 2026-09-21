@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "user_id": 1,
+    "movie_id": 3561,
+    "title": "Stacy's Knights (1982)",
+    "genres": "Drama",
+    "predicted_rating": 3.3716,
+    "model_type": "Cold-Start Multimodal Model",
+    "training_status": "Unseen (0 Training Ratings)"
+}

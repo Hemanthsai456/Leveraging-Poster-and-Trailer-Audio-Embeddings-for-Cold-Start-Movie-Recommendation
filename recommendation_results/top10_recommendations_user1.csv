@@ -1,0 +1,11 @@
+Rank,Movie,Genres,Predicted Rating,Model Type,Training Status
+1,Harry Potter and the Deathly Hallows: Part 2 (2011),Action|Adventure|Drama|Fantasy|Mystery|IMAX,4.0992937088012695,Multimodal Model,Known (In Training)
+2,Harry Potter and the Deathly Hallows: Part 1 (2010),Action|Adventure|Fantasy|IMAX,4.0938920974731445,Multimodal Model,Known (In Training)
+3,Big Hero 6 (2014),Action|Animation|Comedy,4.07840633392334,Multimodal Model,Known (In Training)
+4,"Dark Knight Rises, The (2012)",Action|Adventure|Crime|IMAX,4.0575852394104,Multimodal Model,Known (In Training)
+5,Braveheart (1995),Action|Drama|War,4.047097206115723,Multimodal Model,Known (In Training)
+6,"Avengers, The (2012)",Action|Adventure|Sci-Fi|IMAX,4.046857833862305,Multimodal Model,Known (In Training)
+7,Star Wars: Episode VI - Return of the Jedi (1983),Action|Adventure|Sci-Fi,4.042492866516113,Multimodal Model,Known (In Training)
+8,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX,4.041165351867676,Multimodal Model,Known (In Training)
+9,Forrest Gump (1994),Comedy|Drama|Romance|War,4.037081718444824,Multimodal Model,Known (In Training)
+10,3 Idiots (2009),Comedy|Drama|Romance,4.032439708709717,Multimodal Model,Known (In Training)

@@ -1,0 +1,10 @@
+{
+    "invalid_user": {
+        "status": "error",
+        "message": "User ID 99999999 not found in user catalog."
+    },
+    "missing_embeddings_movie": {
+        "status": "error",
+        "message": "Movie ID 99999999 does not have required multimodal embeddings (CLIP & VGGish)."
+    }
+}
