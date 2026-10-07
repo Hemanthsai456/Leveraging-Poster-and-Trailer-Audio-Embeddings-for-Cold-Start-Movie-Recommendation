@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Artifacts
+recommended_artifacts/
+
+recommended_results/
