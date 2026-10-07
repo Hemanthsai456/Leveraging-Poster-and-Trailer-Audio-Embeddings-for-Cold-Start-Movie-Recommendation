@@ -639,51 +639,42 @@ elif page == "🧠 About Model":
 
     st.code(
         """
-                         INPUTS
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-     User ID           Movie ID          Poster Image
-        │                  │                  │
-        ▼                  ▼                  ▼
-  Embedding(32)      Embedding(32)        CLIP
-        │                  │              512-D
-        │                  │                  │
-        │                  │                  ▼
-        │                  │             Dense(32)
-        │                  │                  │
-        │                  │                  │
-        │                  │          Trailer Audio
-        │                  │              VGGish
-        │                  │              128-D
-        │                  │                  │
-        │                  │                  ▼
-        │                  │             Dense(32)
-        │                  │                  │
-        └──────────┬───────┴──────────┬───────┘
-                   │                  │
-                   └──────┬───────────┘
-                          ▼
-                     Concatenate
-                          │
-                          ▼
-                     Dense(64)
-                      ReLU
-                          │
-                          ▼
-                    Dropout(0.2)
-                          │
-                          ▼
-                     Dense(32)
-                      ReLU
-                          │
-                          ▼
-                     Dense(1)
-                          │
-                          ▼
-                  Predicted Rating
-                     0.5 – 5.0
+                                    INPUTS
+                                        │
+        ┌──────────────┬───────────────┼───────────────┐
+        │              │               │               │              
+        ▼              ▼               ▼               ▼              
+    User ID       Movie ID      Poster Image    Trailer Audio        
+        │              │               │               │             
+        ▼              ▼               ▼               ▼             
+    Embedding(32)  Embedding(32)    CLIP 512-D       VGGish 128-D    
+        │              │               │               │             
+        │              │               ▼               ▼             
+        │              │           Dense(32)       Dense(32)         
+        │              │             ReLU            ReLU            
+        │              │               │               │             
+        └──────────────┴───────────────┴───────────────┘             
+                                    │
+                                    ▼
+                                Concatenate
+                                    │
+                                    ▼
+                                Dense(64)
+                                  ReLU
+                                    │
+                                    ▼
+                                Dropout(0.2)
+                                    │
+                                    ▼
+                                Dense(32)
+                                  ReLU
+                                    │
+                                    ▼
+                                Dense(1)
+                                    │
+                                    ▼
+                            Predicted Rating
+                                0.5 – 5.0
         """,
         language="text"
     )
