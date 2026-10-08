@@ -1,0 +1,9 @@
+{
+    "num_users": 138493,
+    "num_movies": 16517,
+    "clip_dim": 512,
+    "audio_dim": 128,
+    "embedding_dim": 32,
+    "unk_movie_index": 16517,
+    "num_multimodal_movies": 19232
+}
